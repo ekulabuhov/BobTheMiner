@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 0c033c1bc9a370f47ac5432a98aeea45
+timeCreated: 1454457647
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wild West_0
+    21300002: Wild West_1
+    21300004: Wild West_2
+    21300006: Wild West_3
+    21300008: Wild West_4
+    21300010: Wild West_5
+    21300012: Wild West_6
+    21300014: Wild West_7
+    21300016: Wild West_8
+    21300018: Wild West_9
+    21300020: Wild West_10
+    21300022: Wild West_11
+    21300024: Wild West_12
+    21300026: Wild West_13
+    21300028: Wild West_14
+    21300030: Wild West_15
+    21300032: Wild West_16
+    21300034: Wild West_17
+    21300036: Wild West_18
+    21300038: Wild West_19
+    21300040: Wild West_20
+    21300042: Wild West_21
+    21300044: Wild West_22
+    21300046: Wild West_23
+    21300048: Wild West_24
+    21300050: Wild West_25
+    21300052: Wild West_26
+    21300054: Wild West_27
+    21300056: Wild West_28
+    21300058: Wild West_29
+    21300060: Wild West_30
+    21300062: Wild West_31
+    21300064: Wild West_32
+    21300066: Wild West_33
+    21300068: Wild West_34
+    21300070: Wild West_35
+    21300072: Wild West_36
+    21300074: Wild West_37
+    21300076: Wild West_38
+    21300078: Wild West_39
+    21300080: Wild West_40
+    21300082: Wild West_41
+    21300084: Wild West_42
+    21300086: Wild West_43
+    21300088: Wild West_44
+    21300090: Wild West_45
+    21300092: Wild West_46
+    21300094: Wild West_47
+    21300096: Wild West_48
+    21300098: Wild West_49
+    21300100: Wild West_50
+    21300102: Wild West_51
+    21300104: Wild West_52
+    21300106: Wild West_53
+    21300108: Wild West_54
+    21300110: Wild West_55
+    21300112: Wild West_56
+    21300114: Wild West_57
+    21300116: Wild West_58
+    21300118: Wild West_59
+    21300120: Wild West_60
+    21300122: Wild West_61
+    21300124: Wild West_62
+    21300126: Wild West_63
+    21300128: Wild West_64
+    21300130: Wild West_65
+    21300132: Wild West_66
+    21300134: Wild West_67
+    21300136: Wild West_68
+    21300138: Wild West_69
+    21300140: Wild West_70
+    21300142: Wild West_71
+    21300144: Wild West_72
+    21300146: Wild West_73
+    21300148: Wild West_74
+    21300150: Wild West_75
+    21300152: Wild West_76
+    21300154: Wild West_77
+    21300156: Wild West_78
+    21300158: Wild West_79
+    21300160: Wild West_80
+    21300162: Wild West_81
+    21300164: Wild West_82
+    21300166: Wild West_83
+    21300168: Wild West_84
+    21300170: Wild West_85
+    21300172: Wild West_86
+    21300174: Wild West_87
+    21300176: Wild West_88
+    21300178: Wild West_89
+    21300180: Wild West_90
+    21300182: Wild West_91
+    21300184: Wild West_92
+    21300186: Wild West_93
+    21300188: Wild West_94
+    21300190: Wild West_95
+    21300192: Wild West_96
+    21300194: Wild West_97
+    21300196: Wild West_98
+    21300198: Wild West_99
+    21300200: Wild West_100
+    21300202: Wild West_101
+    21300204: Wild West_102
+    21300206: Wild West_103
+    21300208: Wild West_104
+    21300210: Wild West_105
+    21300212: Wild West_106
+    21300214: Wild West_107
+    21300216: Wild West_108
+    21300218: Wild West_109
+    21300220: Wild West_110
+    21300222: Wild West_111
+    21300224: Wild West_112
+    21300226: Wild West_113
+    21300228: Wild West_114
+    21300230: Wild West_115
+    21300232: Wild West_116
+    21300234: Wild West_117
+    21300236: Wild West_118
+    21300238: Wild West_119
+    21300240: Wild West_120
+    21300242: Wild West_121
+    21300244: Wild West_122
+    21300246: Wild West_123
+    21300248: Wild West_124
+    21300250: Wild West_125
+    21300252: Wild West_126
+    21300254: Wild West_127
+    21300256: Wild West_128
+    21300258: Wild West_129
+    21300260: Wild West_130
+    21300262: Wild West_131
+    21300264: Wild West_132
+    21300266: Wild West_133
+    21300268: Wild West_134
+    21300270: Wild West_135
+    21300272: Wild West_136
+    21300274: Wild West_137
+    21300276: Wild West_138
+    21300278: Wild West_139
+    21300280: Wild West_140
+    21300282: Wild West_141
+    21300284: Wild West_142
+    21300286: Wild West_143
+    21300288: Wild West_144
+    21300290: Wild West_145
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Wild West_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -11}
+        - {x: -14, y: -13}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: -12}
+        - {x: 7, y: -11}
+    - name: Wild West_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -7, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -8}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -4}
+        - {x: 16, y: 9}
+        - {x: 15, y: 11}
+    - name: Wild West_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: -1, y: -13}
+        - {x: -5, y: -13}
+        - {x: -6, y: -16}
+      - - {x: 0, y: 14}
+        - {x: -8, y: 12}
+        - {x: -16, y: 8}
+        - {x: -16, y: -6}
+        - {x: -7, y: -11}
+        - {x: 6, y: -11}
+        - {x: 15, y: -6}
+        - {x: 15, y: 11}
+        - {x: 9, y: 14}
+    - name: Wild West_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -16}
+        - {x: -2, y: -13}
+        - {x: -6, y: -13}
+        - {x: -7, y: -16}
+      - - {x: -8, y: 9}
+        - {x: -10, y: 6}
+        - {x: -10, y: -3}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 11, y: -3}
+        - {x: 11, y: 5}
+        - {x: 8, y: 9}
+      - - {x: 13, y: -6}
+        - {x: 15, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -2}
+        - {x: 13, y: -3}
+    - name: Wild West_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 2}
+        - {x: 7, y: 8}
+        - {x: -2, y: 8}
+        - {x: -6, y: 6}
+        - {x: -11, y: 2}
+        - {x: -12, y: -8}
+        - {x: -7, y: -12}
+        - {x: 4, y: -12}
+        - {x: 7, y: -11}
+        - {x: 12, y: -5}
+    - name: Wild West_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 8}
+        - {x: -15, y: 4}
+        - {x: -15, y: -7}
+        - {x: -13, y: -13}
+        - {x: 7, y: -13}
+        - {x: 15, y: -12}
+        - {x: 16, y: -11}
+        - {x: 16, y: 0}
+        - {x: 7, y: 8}
+    - name: Wild West_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+    - name: Wild West_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -12, y: 5}
+        - {x: -13, y: 0}
+        - {x: -13, y: -8}
+        - {x: -7, y: -11}
+        - {x: 3, y: -11}
+        - {x: 10, y: -9}
+        - {x: 12, y: -5}
+        - {x: 12, y: 2}
+        - {x: 1, y: 10}
+    - name: Wild West_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 14}
+        - {x: -16, y: 9}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 8, y: 14}
+    - name: Wild West_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 10, y: 14}
+    - name: Wild West_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 11}
+        - {x: 10, y: 14}
+    - name: Wild West_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -9}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: 7, y: 16}
+    - name: Wild West_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 4, y: -16}
+        - {x: 15, y: -9}
+        - {x: 16, y: -8}
+        - {x: 16, y: 14}
+    - name: Wild West_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -15, y: -15}
+        - {x: 0, y: -15}
+        - {x: 16, y: -4}
+        - {x: 16, y: 11}
+        - {x: 8, y: 16}
+    - name: Wild West_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -16}
+        - {x: 2, y: -13}
+        - {x: -5, y: -13}
+        - {x: -6, y: -16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -4}
+        - {x: -6, y: -12}
+        - {x: 15, y: -12}
+        - {x: 16, y: -9}
+        - {x: 16, y: 6}
+        - {x: 8, y: 16}
+    - name: Wild West_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -15}
+        - {x: -1, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 4, y: -12}
+        - {x: 3, y: -12}
+      - - {x: 16, y: 13}
+        - {x: 10, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -1, y: -14}
+        - {x: 2, y: -13}
+        - {x: 13, y: -5}
+        - {x: 16, y: -2}
+      - - {x: 13, y: -9}
+        - {x: 15, y: -11}
+        - {x: 16, y: -11}
+        - {x: 16, y: -6}
+        - {x: 14, y: -6}
+    - name: Wild West_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 13}
+        - {x: 12, y: 16}
+    - name: Wild West_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -16}
+        - {x: -2, y: -13}
+        - {x: -6, y: -13}
+        - {x: -7, y: -16}
+      - - {x: -4, y: 16}
+        - {x: -12, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -8}
+        - {x: -14, y: -14}
+        - {x: 7, y: -14}
+        - {x: 14, y: -13}
+        - {x: 15, y: -9}
+        - {x: 15, y: -1}
+        - {x: 0, y: 14}
+    - name: Wild West_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 6, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 4}
+        - {x: 3, y: 16}
+    - name: Wild West_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -16}
+        - {x: -4, y: -14}
+        - {x: -7, y: -13}
+        - {x: -9, y: -16}
+      - - {x: -5, y: 16}
+        - {x: -9, y: 13}
+        - {x: -9, y: -5}
+        - {x: -6, y: -15}
+        - {x: 6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: Wild West_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+        - {x: -1, y: 15}
+    - name: Wild West_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -14, y: 4}
+        - {x: -14, y: -9}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 10, y: 14}
+    - name: Wild West_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 9}
+        - {x: 4, y: 14}
+    - name: Wild West_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 12, y: 16}
+    - name: Wild West_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -9, y: 13}
+        - {x: -9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 9, y: 16}
+    - name: Wild West_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 6}
+        - {x: -16, y: -13}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -9, y: 15}
+        - {x: -9, y: -10}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -2}
+        - {x: -4, y: -11}
+        - {x: 10, y: -11}
+        - {x: 16, y: -10}
+        - {x: 16, y: 7}
+        - {x: -2, y: 16}
+    - name: Wild West_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -16}
+        - {x: -10, y: -14}
+        - {x: -13, y: -13}
+        - {x: -15, y: -16}
+      - - {x: -7, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -11}
+        - {x: -9, y: -14}
+        - {x: 1, y: -14}
+        - {x: 6, y: -12}
+        - {x: 16, y: -1}
+        - {x: 16, y: 13}
+        - {x: 10, y: 16}
+    - name: Wild West_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 14}
+    - name: Wild West_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 3}
+        - {x: 2, y: 15}
+    - name: Wild West_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: 3, y: -14}
+        - {x: 15, y: -11}
+        - {x: 16, y: -7}
+        - {x: 16, y: 16}
+    - name: Wild West_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 13, y: 16}
+    - name: Wild West_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 9, y: 16}
+    - name: Wild West_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: 2}
+        - {x: -6, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 8}
+        - {x: 7, y: 16}
+    - name: Wild West_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -15}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: 6, y: 16}
+    - name: Wild West_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -5}
+        - {x: -11, y: -13}
+        - {x: -8, y: -15}
+        - {x: 6, y: -15}
+        - {x: 16, y: -14}
+        - {x: 16, y: 16}
+    - name: Wild West_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 10}
+        - {x: -3, y: 16}
+    - name: Wild West_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -6}
+        - {x: -10, y: -10}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -12}
+        - {x: 4, y: -6}
+      - - {x: 7, y: 16}
+        - {x: 7, y: 14}
+        - {x: 9, y: 12}
+        - {x: 15, y: 12}
+        - {x: 16, y: 13}
+        - {x: 16, y: 16}
+    - name: Wild West_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: -8}
+        - {x: 14, y: 8}
+        - {x: 14, y: 14}
+      - - {x: 9, y: -6}
+        - {x: 7, y: -14}
+        - {x: 7, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 13, y: -5}
+    - name: Wild West_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -7}
+        - {x: -2, y: -8}
+        - {x: -4, y: -11}
+        - {x: -6, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -7}
+    - name: Wild West_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 3, y: -16}
+        - {x: 2, y: -12}
+        - {x: -5, y: -7}
+        - {x: -8, y: -6}
+      - - {x: -8, y: 10}
+        - {x: -5, y: 11}
+        - {x: -5, y: 14}
+        - {x: -8, y: 15}
+        - {x: -10, y: 13}
+    - name: Wild West_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -10, y: 4}
+        - {x: -10, y: -8}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: -15, y: -13}
+        - {x: -13, y: -15}
+        - {x: -10, y: -14}
+        - {x: -10, y: -11}
+        - {x: -12, y: -9}
+        - {x: -15, y: -10}
+    - name: Wild West_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 15}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -12}
+        - {x: 11, y: -10}
+        - {x: 4, y: -2}
+    - name: Wild West_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -12, y: 5}
+        - {x: -12, y: -3}
+        - {x: -8, y: -10}
+        - {x: 11, y: -10}
+        - {x: 11, y: 7}
+        - {x: 10, y: 10}
+      - - {x: 13, y: 5}
+        - {x: 15, y: 3}
+        - {x: 16, y: 3}
+        - {x: 16, y: 8}
+        - {x: 14, y: 8}
+    - name: Wild West_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 14, y: 16}
+    - name: Wild West_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 32}
+        - {x: -12, y: 32}
+        - {x: -14, y: 31}
+        - {x: -14, y: 20}
+        - {x: -32, y: -3}
+        - {x: -32, y: -25}
+        - {x: -30, y: -26}
+        - {x: 15, y: -26}
+        - {x: 31, y: -10}
+        - {x: 31, y: 7}
+    - name: Wild West_60
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -12}
+        - {x: -13, y: -29}
+        - {x: 15, y: -29}
+        - {x: 32, y: -16}
+        - {x: 32, y: 31}
+        - {x: -30, y: 31}
+        - {x: -32, y: 21}
+    - name: Wild West_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 15, y: 16}
+    - name: Wild West_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -5, y: 13}
+        - {x: -1, y: 13}
+        - {x: 1, y: 15}
+        - {x: 1, y: 16}
+    - name: Wild West_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -13, y: 12}
+        - {x: -15, y: 3}
+        - {x: -15, y: -14}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 6}
+        - {x: 13, y: 16}
+    - name: Wild West_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 9}
+        - {x: -14, y: 1}
+        - {x: 1, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -3, y: -16}
+        - {x: 11, y: -11}
+        - {x: 11, y: 16}
+    - name: Wild West_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: 0}
+        - {x: 4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 5, y: -16}
+        - {x: 14, y: -6}
+        - {x: 14, y: 14}
+        - {x: 13, y: 16}
+    - name: Wild West_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 14}
+        - {x: -10, y: 14}
+        - {x: -12, y: 8}
+        - {x: -12, y: -9}
+        - {x: -7, y: -12}
+        - {x: 10, y: -12}
+        - {x: 14, y: -5}
+        - {x: 14, y: 9}
+        - {x: 10, y: 13}
+    - name: Wild West_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -12, y: 6}
+        - {x: -12, y: -9}
+        - {x: 9, y: -9}
+        - {x: 12, y: -6}
+        - {x: 12, y: 3}
+        - {x: 7, y: 14}
+    - name: Wild West_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -12, y: 8}
+        - {x: -12, y: -11}
+        - {x: -10, y: -13}
+        - {x: 7, y: -13}
+        - {x: 10, y: -12}
+        - {x: 14, y: -7}
+        - {x: 14, y: 3}
+        - {x: 10, y: 13}
+    - name: Wild West_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -11, y: 3}
+        - {x: -11, y: -12}
+        - {x: 10, y: -12}
+        - {x: 13, y: -9}
+        - {x: 13, y: 0}
+        - {x: 8, y: 11}
+    - name: Wild West_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -12}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: Wild West_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -8, y: 16}
+        - {x: -13, y: 2}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 13}
+    - name: Wild West_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -11}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 11, y: 16}
+    - name: Wild West_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 15, y: 14}
+        - {x: 13, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 15}
+    - name: Wild West_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 6}
+        - {x: -1, y: -4}
+        - {x: -1, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+    - name: Wild West_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -16}
+        - {x: 2, y: -16}
+        - {x: 2, y: -11}
+        - {x: -2, y: 2}
+        - {x: -7, y: 6}
+    - name: Wild West_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 7}
+        - {x: -16, y: -7}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+    - name: Wild West_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -10}
+        - {x: -1, y: 7}
+    - name: Wild West_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8}
+        - {x: -16, y: -10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+    - name: Wild West_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 6, y: 8}
+    - name: Wild West_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: -16, y: 8}
+    - name: Wild West_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 2}
+        - {x: -15, y: -7}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -14}
+        - {x: 15, y: -6}
+        - {x: 8, y: 2}
+    - name: Wild West_89
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+    - name: Wild West_90
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: -1, y: 16}
+    - name: Wild West_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 15, y: 16}
+    - name: Wild West_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16}
+        - {x: -29, y: -3}
+        - {x: -29, y: -32}
+        - {x: 30, y: -32}
+        - {x: 30, y: -2}
+        - {x: 14, y: 16}
+    - name: Wild West_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 7}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 6}
+        - {x: 13, y: 14}
+        - {x: 10, y: 16}
+    - name: Wild West_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Wild West_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Wild West_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Wild West_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Wild West_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -13}
+        - {x: -13, y: -14}
+        - {x: 14, y: -14}
+        - {x: 16, y: -11}
+        - {x: 16, y: 16}
+    - name: Wild West_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 5}
+        - {x: -15, y: 1}
+        - {x: -11, y: -4}
+        - {x: 10, y: -4}
+        - {x: 16, y: -2}
+        - {x: 16, y: 16}
+    - name: Wild West_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 14, y: 16}
+        - {x: -13, y: 16}
+        - {x: -16, y: 9}
+    - name: Wild West_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -3}
+        - {x: 5, y: -3}
+        - {x: 16, y: -1}
+        - {x: 16, y: 16}
+    - name: Wild West_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -1}
+        - {x: 0, y: -3}
+        - {x: 14, y: -3}
+        - {x: 16, y: -1}
+        - {x: 16, y: 16}
+    - name: Wild West_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_108
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: -1, y: 16}
+    - name: Wild West_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 15, y: 16}
+    - name: Wild West_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -9, y: -7}
+        - {x: -5, y: -3}
+        - {x: 10, y: -7}
+        - {x: 16, y: -7}
+    - name: Wild West_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -15, y: -7}
+        - {x: -11, y: -3}
+        - {x: 10, y: -7}
+        - {x: 16, y: -7}
+    - name: Wild West_112
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -15, y: -7}
+        - {x: -11, y: -3}
+        - {x: 10, y: -7}
+        - {x: 16, y: -7}
+    - name: Wild West_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -5}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -7}
+        - {x: -15, y: -7}
+        - {x: -11, y: -3}
+        - {x: 7, y: -7}
+        - {x: 14, y: -7}
+    - name: Wild West_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: -16, y: 14}
+    - name: Wild West_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_116
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: -16, y: 14}
+    - name: Wild West_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 98
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: -16, y: 14}
+    - name: Wild West_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -8}
+        - {x: -12, y: -10}
+        - {x: 13, y: -10}
+        - {x: 16, y: -6}
+        - {x: 16, y: 16}
+    - name: Wild West_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -2}
+        - {x: -15, y: -3}
+        - {x: 2, y: -3}
+        - {x: 16, y: -2}
+        - {x: 16, y: 16}
+    - name: Wild West_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -1}
+        - {x: 0, y: -3}
+        - {x: 14, y: -3}
+        - {x: 16, y: -1}
+        - {x: 16, y: 16}
+    - name: Wild West_125
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 6}
+        - {x: 16, y: 6}
+        - {x: 16, y: 16}
+    - name: Wild West_126
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -14}
+        - {x: 16, y: -14}
+        - {x: 16, y: 13}
+        - {x: -16, y: 13}
+    - name: Wild West_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Wild West_128
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 32}
+        - {x: -28, y: -10}
+        - {x: 10, y: -10}
+        - {x: 28, y: 1}
+        - {x: 28, y: 32}
+    - name: Wild West_130
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 32}
+        - {x: -28, y: -1}
+        - {x: -23, y: -5}
+        - {x: -11, y: -8}
+        - {x: 28, y: -8}
+        - {x: 28, y: 32}
+    - name: Wild West_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_133
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 15}
+        - {x: -11, y: 15}
+    - name: Wild West_137
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 13}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 14, y: 15}
+        - {x: -9, y: 15}
+    - name: Wild West_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 6}
+        - {x: 16, y: 6}
+        - {x: 16, y: 16}
+    - name: Wild West_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -11, y: -1}
+        - {x: 12, y: -1}
+        - {x: 14, y: 1}
+        - {x: 14, y: 16}
+    - name: Wild West_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -11, y: -1}
+        - {x: 12, y: -1}
+        - {x: 14, y: 1}
+        - {x: 14, y: 16}
+    - name: Wild West_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -11, y: -1}
+        - {x: 12, y: -1}
+        - {x: 14, y: 1}
+        - {x: 14, y: 16}
+    - name: Wild West_142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -2}
+        - {x: -15, y: -7}
+        - {x: 8, y: -7}
+        - {x: 16, y: -4}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: Wild West_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -4}
+        - {x: -14, y: -7}
+        - {x: 15, y: -7}
+        - {x: 16, y: -5}
+        - {x: 16, y: 16}
+    - name: Wild West_144
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: 0}
+        - {x: -13, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
+    - name: Wild West_145
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 13}
+        - {x: -16, y: 13}
+        - {x: -16, y: -3}
+        - {x: -13, y: -2}
+        - {x: -11, y: 1}
+        - {x: -11, y: 11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
