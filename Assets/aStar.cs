@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
+// EK: translated copy of http://buildnewgames.com/astar/
 public class AStar
 {
     const int worldHeight = 8;
@@ -11,7 +11,7 @@ public class AStar
     int[,] world = new int[worldHeight,worldWidth];
 
     // Path function, executes AStar algorithm operations
-    public List<Point> calculatePath(Point pathStart, Point pathEnd)
+	public List<Point> calculatePath(Point[] forrest, Point pathStart, Point pathEnd, int maxG)
     {
         Func<Point, Node, int> distanceFunction = ManhattanDistance;
         const int worldSize = worldHeight * worldWidth;
@@ -49,11 +49,16 @@ public class AStar
                 }
             }
             // grab the next node and remove it from Open array
-            myNode = Open[0];
-            Open.RemoveAt(0);
+            myNode = Open[min];
+            Open.RemoveAt(min);
             // is it the destination node?
             if (myNode.value == mypathEnd.value)
             {
+				// we can't see that far, return empty list
+				if (myNode.g > maxG) {
+					return new List<Point> ();
+				}
+
                 Closed.Add(myNode);
                 myPath = Closed[Closed.Count - 1];
                 do
@@ -77,7 +82,7 @@ public class AStar
                     if (!AStar[myPath.value])
                     {
                         // estimated cost of this particular route so far
-                        myPath.g = myNode.g + distanceFunction(myNeighbours[i], myNode);
+						myPath.g = myNode.g + distanceFunction(myNeighbours[i], myNode) + (forrest.Contains(myNeighbours[i]) ? 15 : 0);
                         // estimated cost of entire guessed route to the destination
                         myPath.f = myPath.g + distanceFunction(myNeighbours[i], mypathEnd);
                         // remember this new path for testing above

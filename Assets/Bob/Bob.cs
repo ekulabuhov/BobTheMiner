@@ -16,19 +16,27 @@ public enum Locations
 public class MyFileLogHandler : ILogHandler
 {
     private ILogHandler m_DefaultLogHandler = Debug.logger.logHandler;
-    public Text foodText;						//UI Text to display current player food total.
+    public Text bobText;
+	public Text elsaText;
 
-    public MyFileLogHandler(Text foodText)
+	public MyFileLogHandler(Text bobText, Text elsaText)
     {
         // Replace the default debug log handler
         Debug.logger.logHandler = this;
-        this.foodText = foodText;
+		this.bobText = bobText;
+		this.elsaText = elsaText;
     }
 
     public void LogFormat(LogType logType, UnityEngine.Object context, string format, params object[] args)
     {
-        foodText.text = String.Format(format, args);
-        m_DefaultLogHandler.LogFormat(logType, context, format, args);
+		var message = String.Format (format, args);
+		if (message.StartsWith ("Bob:")) {
+			bobText.text = message;
+		} else if (message.StartsWith ("Elsa:")) {
+			elsaText.text = message;
+		} else {
+			m_DefaultLogHandler.LogFormat (logType, context, format, args);
+		}
     }
 
     public void LogException(Exception exception, UnityEngine.Object context)
@@ -37,7 +45,7 @@ public class MyFileLogHandler : ILogHandler
     }
 }
 
-public class Bob : Agent {
+public class Bob : Agent<Bob> {
 	#region implemented abstract members of Agent
 	public override string ID {
 		get {
@@ -59,12 +67,17 @@ public class Bob : Agent {
             int yDir = this.waypoints[0].y - (int)rb2D.position.y;
             playerScript.MovePlayer(xDir, yDir);
             this.waypoints.RemoveAt(0);
+			if (this.waypoints.Count == 0 && this.onChangeComplete != null) {
+				this.onChangeComplete ();
+				this.onChangeComplete = null;
+			}
             return;
         }
 
         m_iThirst += 1;
 
         this.stateMachine.Update();
+		MessageDispatcher<Bob>.DispatchDelayedMessages();
     }
 
     public void Awake()
@@ -81,14 +94,13 @@ public class Bob : Agent {
         //Get a component reference to the attached BoardManager script
         boardScript = FindObjectOfType<BoardManager>();
         //Get a component reference to the attached Player script
-        playerScript = FindObjectOfType<Player>();
+		playerScript = GetComponent<Player>();
 
-        new MyFileLogHandler(foodText);
+		new MyFileLogHandler(bobText, elsaText);
 
         InvokeRepeating("UpdateStateMachine", 1, 1);
+		EntityManager<Bob>.RegisterAgent (this);
     }
-
-    private StateMachine<Bob> stateMachine;
 
 	public static int WAIT_TIME = 5;
 	public int waitedTime = 0;
@@ -96,10 +108,12 @@ public class Bob : Agent {
 	public Locations location;
     private Rigidbody2D rb2D;				// The Rigidbody2D component attached to this object.
     private BoardManager boardScript;		// Store a reference to our BoardManager which will set up the level.
-    public Text foodText;					// UI Text to display current player food total.
+    public Text bobText;					// UI Text to display Bobs thoughts.
+	public Text elsaText;					// UI Text to display Elsas thoughts.
     private AStar aStar = new AStar();
     private List<Point> waypoints = new List<Point>();             // A-Star path
     private Player playerScript;			// Store a reference to our Player which will move our player.
+	private Action onChangeComplete;
     
     //the amount of gold a miner must have before he feels comfortable
     public const int ComfortLevel = 5;
@@ -188,10 +202,12 @@ public class Bob : Agent {
 		this.stateMachine.ChangeState(state);
 	}
 
-	public void ChangeLocation (Locations location)
+	public void ChangeLocation (Locations location, Action onChangeComplete = null)
 	{
         var pathStart = new Point { x = (int)rb2D.position.x, y = (int)rb2D.position.y };
         Vector3 newPos = new Vector3();
+
+		this.onChangeComplete = onChangeComplete;
 
         switch (location)
         {
@@ -212,18 +228,31 @@ public class Bob : Agent {
         }
 
         var pathEnd = new Point { x = (int)newPos.x, y = (int)newPos.y };
-        this.waypoints = aStar.calculatePath(pathStart, pathEnd);
+		var forrest = boardScript.forrest.Select((go) => { 
+			return new Point() { x = (int)go.transform.position.x, y = (int)go.transform.position.y };
+		}).ToArray(); 
+		this.waypoints = aStar.calculatePath(forrest, pathStart, pathEnd, int.MaxValue);
 
-        foreach (Transform child in boardScript.boardHolder)
-        {
-            // remove previous color
-            child.GetComponent<SpriteRenderer>().color = Color.white;
+		foreach (Transform child in boardScript.boardHolder)
+		{
+			var spriteRenderer = child.GetComponent<SpriteRenderer> ();
+			// remove previous color
+			if (spriteRenderer.color == Color.magenta) {
+				spriteRenderer.color = Color.cyan;
+			} else if (spriteRenderer.color == Color.red) {
+				spriteRenderer.color = Color.white;
+			}
 
-            // if child is on the path
-            bool onPath = waypoints.Any((p) => { return p.x == child.position.x && p.y == child.position.y; });
-            if (onPath)
-                child.GetComponent<SpriteRenderer>().color = Color.red;
-        }
+			// if child is on the path
+			bool onPath = waypoints.Any((p) => { return p.x == child.position.x && p.y == child.position.y; });
+			if (onPath) {
+				if (spriteRenderer.color == Color.cyan) {
+					spriteRenderer.color = Color.magenta;
+				} else {
+					spriteRenderer.color = Color.red;
+				}
+			}
+		}
 
         this.location = location;
 	}

@@ -105,14 +105,16 @@ namespace Completed
 		//Update is called every frame.
 		void Update()
 		{
+			if (!doingSetup) {
+				//Start moving enemies.
+				StartCoroutine (MoveEnemies ());
+			}
+
 			//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 			if(playersTurn || enemiesMoving || doingSetup)
 				
 				//If any of these are true, return and do not start MoveEnemies.
 				return;
-			
-			//Start moving enemies.
-			StartCoroutine (MoveEnemies ());
 		}
 		
 		//Call this to add the passed in Enemy to the List of Enemy objects.
@@ -143,7 +145,7 @@ namespace Completed
 			enemiesMoving = true;
 			
 			//Wait for turnDelay seconds, defaults to .1 (100 ms).
-			yield return new WaitForSeconds(turnDelay);
+			//yield return new WaitForSeconds(turnDelay);
 			
 			//If there are no enemies spawned (IE in first level):
 			if (enemies.Count == 0) 
@@ -159,7 +161,7 @@ namespace Completed
 				enemies[i].MoveEnemy ();
 				
 				//Wait for Enemy's moveTime before moving next Enemy, 
-				yield return new WaitForSeconds(enemies[i].moveTime);
+				//yield return new WaitForSeconds(enemies[i].moveTime);
 			}
 			//Once Enemies are done moving, set playersTurn to true so player can move.
 			playersTurn = true;

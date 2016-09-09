@@ -34,6 +34,8 @@ namespace Completed
         public GameObject bank;                                         //Prefab to spawn for bank.
         public GameObject barrels;                                         //Prefab to spawn for barrels.
         public GameObject wigwam;                                         //Prefab to spawn for wigwam.
+		public GameObject forrestPrefab;                                         //Prefab to spawn for forrest.
+		public GameObject[] forrest;									//Array of spawned forrest
         public GameObject[] floorTiles;									//Array of floor prefabs.
 		public GameObject[] wallTiles;									//Array of wall prefabs.
 		public GameObject[] foodTiles;									//Array of food prefabs.
@@ -111,8 +113,10 @@ namespace Completed
 		
 		
 		//LayoutObjectAtRandom accepts an array of game objects to choose from along with a minimum and maximum range for the number of objects to create.
-		void LayoutObjectAtRandom (GameObject[] tileArray, int minimum, int maximum)
+		List<GameObject> LayoutObjectAtRandom (GameObject[] tileArray, int minimum, int maximum)
 		{
+			var result = new List<GameObject> ();
+
 			//Choose a random number of objects to instantiate within the minimum and maximum limits
 			int objectCount = Random.Range (minimum, maximum+1);
 			
@@ -126,8 +130,10 @@ namespace Completed
 				GameObject tileChoice = tileArray[Random.Range (0, tileArray.Length)];
 				
 				//Instantiate tileChoice at the position returned by RandomPosition with no change in rotation
-				Instantiate(tileChoice, randomPosition, Quaternion.identity);
+				result.Add((GameObject)Instantiate(tileChoice, randomPosition, Quaternion.identity));
 			}
+
+			return result;
 		}
 
 
@@ -160,6 +166,8 @@ namespace Completed
             barrels = (GameObject)Instantiate(barrels, RandomPosition(), Quaternion.identity);
 
             wigwam = (GameObject)Instantiate(wigwam, RandomPosition(), Quaternion.identity);
+
+			forrest = LayoutObjectAtRandom (new GameObject[] { forrestPrefab }, 9, 10).ToArray();
         }
 	}
 }

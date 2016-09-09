@@ -19,7 +19,12 @@ internal class GoHomeAndSleepTilRested : State<Bob>
         {
             Debug.Log(agent.ID + ": Walkin' home");
 
-            agent.ChangeLocation(Locations.Shack);
+			agent.ChangeLocation(Locations.Shack, () => {
+				//let the wife know I'm home
+				MessageDispatcher<Elsa>.DispatchMessage(0, //time delay
+					agent.ID,        //ID of sender
+					MessageTypes.HiHoneyImHome);   //the message
+			});
         }
     }
 
@@ -46,4 +51,23 @@ internal class GoHomeAndSleepTilRested : State<Bob>
     {
         Debug.Log(agent.ID + ": Leaving the house");
     }
+
+	public override bool OnMessage(Bob agent, Telegram msg)
+	{
+		switch(msg.Msg)
+		{
+		case MessageTypes.StewReady:
+			
+			Debug.Log (agent.ID + ": Message handled at " + DateTime.Now.ToShortTimeString ());
+
+			Debug.Log (agent.ID + ": Okay Hun, ahm a comin'!");
+
+			agent.stateMachine.ChangeState (EatStew.Instance);
+
+			return true;
+
+		}//end switch
+
+		return false; //send message to global message handler
+	}
 }

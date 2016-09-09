@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 50164194aa9767648877bec2225b3987
-timeCreated: 1454458236
+timeCreated: 1460933028
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -154,7 +154,7 @@ TextureImporter:
     21300294: TJ66Nc_155
     21300296: TJ66Nc_156
     21300298: TJ66Nc_157
-    21300300: TJ66Nc_158
+    21300300: forrest
     21300302: TJ66Nc_159
     21300304: TJ66Nc_160
     21300306: TJ66Nc_161
@@ -2954,43 +2954,37 @@ TextureImporter:
         - {x: -16, y: -16}
         - {x: 16, y: -16}
         - {x: 16, y: 16}
-    - name: TJ66Nc_158
+    - name: forrest
       rect:
         serializedVersion: 2
         x: 448
-        y: 192
-        width: 32
-        height: 32
+        y: 128
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -9, y: 16}
-        - {x: -16, y: 5}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 7}
-        - {x: 11, y: 16}
-      - - {x: -13, y: 9}
-        - {x: -13, y: 12}
-        - {x: -16, y: 13}
-        - {x: -16, y: 8}
-    - name: TJ66Nc_159
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: -2}
-        - {x: -16, y: -16}
-        - {x: 1, y: -16}
-        - {x: 1, y: -8}
-        - {x: -6, y: -2}
+      - - {x: 8, y: -43}
+        - {x: 2, y: -45}
+        - {x: 2, y: -48}
+        - {x: 25, y: -48}
+        - {x: 25, y: -45}
+        - {x: 22, y: -43}
+      - - {x: -5, y: 48}
+        - {x: -25, y: 48}
+        - {x: -32, y: 39}
+        - {x: -32, y: -5}
+        - {x: -29, y: -13}
+        - {x: -11, y: -37}
+        - {x: 19, y: -37}
+        - {x: 20, y: -33}
+        - {x: 20, y: 24}
+        - {x: 12, y: 34}
+      - - {x: -29, y: 41}
+        - {x: -29, y: 44}
+        - {x: -32, y: 45}
+        - {x: -32, y: 40}
     - name: TJ66Nc_160
       rect:
         serializedVersion: 2
@@ -3243,37 +3237,6 @@ TextureImporter:
         - {x: 4, y: -15}
         - {x: 16, y: -2}
         - {x: 16, y: 16}
-    - name: TJ66Nc_174
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
-    - name: TJ66Nc_175
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 4, y: -16}
-        - {x: 4, y: 8}
-        - {x: 2, y: 16}
     - name: TJ66Nc_176
       rect:
         serializedVersion: 2
@@ -3518,45 +3481,6 @@ TextureImporter:
         - {x: 15, y: 9}
         - {x: -4, y: 9}
         - {x: -10, y: 2}
-    - name: TJ66Nc_190
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 16}
-        - {x: 1, y: -4}
-        - {x: 6, y: -5}
-        - {x: 13, y: -5}
-        - {x: 16, y: -4}
-        - {x: 16, y: 16}
-    - name: TJ66Nc_191
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: -11}
-        - {x: -14, y: -13}
-        - {x: -14, y: -16}
-        - {x: 9, y: -16}
-        - {x: 9, y: -12}
-        - {x: 7, y: -11}
-      - - {x: -16, y: 16}
-        - {x: -16, y: -5}
-        - {x: -4, y: -5}
-        - {x: 4, y: 0}
-        - {x: 4, y: 16}
     - name: TJ66Nc_192
       rect:
         serializedVersion: 2
