@@ -1,0 +1,985 @@
+fileFormatVersion: 2
+guid: da6648f0c5220418983cca592a1fad48
+timeCreated: 1474123991
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: vx_pandaren_character_by_schwarzenacht-d5zcyjk_0
+    21300002: vx_pandaren_character_by_schwarzenacht-d5zcyjk_1
+    21300004: vx_pandaren_character_by_schwarzenacht-d5zcyjk_2
+    21300006: vx_pandaren_character_by_schwarzenacht-d5zcyjk_3
+    21300008: vx_pandaren_character_by_schwarzenacht-d5zcyjk_4
+    21300010: vx_pandaren_character_by_schwarzenacht-d5zcyjk_5
+    21300012: vx_pandaren_character_by_schwarzenacht-d5zcyjk_6
+    21300014: vx_pandaren_character_by_schwarzenacht-d5zcyjk_7
+    21300016: vx_pandaren_character_by_schwarzenacht-d5zcyjk_8
+    21300018: vx_pandaren_character_by_schwarzenacht-d5zcyjk_9
+    21300020: vx_pandaren_character_by_schwarzenacht-d5zcyjk_10
+    21300022: vx_pandaren_character_by_schwarzenacht-d5zcyjk_11
+    21300024: vx_pandaren_character_by_schwarzenacht-d5zcyjk_12
+    21300026: vx_pandaren_character_by_schwarzenacht-d5zcyjk_13
+    21300028: vx_pandaren_character_by_schwarzenacht-d5zcyjk_14
+    21300030: vx_pandaren_character_by_schwarzenacht-d5zcyjk_15
+    21300032: vx_pandaren_character_by_schwarzenacht-d5zcyjk_16
+    21300034: vx_pandaren_character_by_schwarzenacht-d5zcyjk_17
+    21300036: vx_pandaren_character_by_schwarzenacht-d5zcyjk_18
+    21300038: vx_pandaren_character_by_schwarzenacht-d5zcyjk_19
+    21300040: vx_pandaren_character_by_schwarzenacht-d5zcyjk_20
+    21300042: vx_pandaren_character_by_schwarzenacht-d5zcyjk_21
+    21300044: vx_pandaren_character_by_schwarzenacht-d5zcyjk_22
+    21300046: vx_pandaren_character_by_schwarzenacht-d5zcyjk_23
+    21300048: vx_pandaren_character_by_schwarzenacht-d5zcyjk_24
+    21300050: vx_pandaren_character_by_schwarzenacht-d5zcyjk_25
+    21300052: vx_pandaren_character_by_schwarzenacht-d5zcyjk_26
+    21300054: vx_pandaren_character_by_schwarzenacht-d5zcyjk_27
+    21300056: vx_pandaren_character_by_schwarzenacht-d5zcyjk_28
+    21300058: vx_pandaren_character_by_schwarzenacht-d5zcyjk_29
+    21300060: vx_pandaren_character_by_schwarzenacht-d5zcyjk_30
+    21300062: vx_pandaren_character_by_schwarzenacht-d5zcyjk_31
+    21300064: vx_pandaren_character_by_schwarzenacht-d5zcyjk_32
+    21300066: vx_pandaren_character_by_schwarzenacht-d5zcyjk_33
+    21300068: vx_pandaren_character_by_schwarzenacht-d5zcyjk_34
+    21300070: vx_pandaren_character_by_schwarzenacht-d5zcyjk_35
+    21300072: vx_pandaren_character_by_schwarzenacht-d5zcyjk_36
+    21300074: vx_pandaren_character_by_schwarzenacht-d5zcyjk_37
+    21300076: vx_pandaren_character_by_schwarzenacht-d5zcyjk_38
+    21300078: vx_pandaren_character_by_schwarzenacht-d5zcyjk_39
+    21300080: vx_pandaren_character_by_schwarzenacht-d5zcyjk_40
+    21300082: vx_pandaren_character_by_schwarzenacht-d5zcyjk_41
+    21300084: vx_pandaren_character_by_schwarzenacht-d5zcyjk_42
+    21300086: vx_pandaren_character_by_schwarzenacht-d5zcyjk_43
+    21300088: vx_pandaren_character_by_schwarzenacht-d5zcyjk_44
+    21300090: vx_pandaren_character_by_schwarzenacht-d5zcyjk_45
+    21300092: vx_pandaren_character_by_schwarzenacht-d5zcyjk_46
+    21300094: vx_pandaren_character_by_schwarzenacht-d5zcyjk_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: 15}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 1}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 13}
+        - {x: -14, y: 9}
+        - {x: -14, y: -11}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 15}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -13}
+        - {x: -9, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -12}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 12}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 9, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 8, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 15}
+        - {x: 9, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -11, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -12}
+        - {x: 11, y: -4}
+        - {x: 11, y: 10}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -13}
+        - {x: -12, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: 1}
+        - {x: 15, y: 12}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -5}
+        - {x: 15, y: 14}
+        - {x: 12, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -7}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -4}
+        - {x: 15, y: 12}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -6}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -3}
+        - {x: -8, y: -14}
+        - {x: -6, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 13}
+        - {x: 12, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: -7}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: -1}
+        - {x: 14, y: 9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -6}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -14, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -7}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -12}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 15}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -11}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -11, y: 11}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -13}
+        - {x: 13, y: 12}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: -3}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -4}
+        - {x: 14, y: 13}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -2}
+        - {x: -13, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -14}
+        - {x: 14, y: 4}
+        - {x: 14, y: 13}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -3}
+        - {x: -11, y: -12}
+        - {x: -7, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -11}
+        - {x: 14, y: -6}
+        - {x: 14, y: 13}
+      - - {x: 13, y: -13}
+        - {x: 15, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: -8}
+        - {x: 13, y: -9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 15}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: 2}
+        - {x: 13, y: 13}
+        - {x: 9, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 16}
+      - - {x: 13, y: -13}
+        - {x: 15, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: -8}
+        - {x: 13, y: -9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -8}
+        - {x: 13, y: 15}
+        - {x: 12, y: 16}
+      - - {x: 13, y: -13}
+        - {x: 15, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: -8}
+        - {x: 13, y: -9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -12, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -10}
+        - {x: 13, y: 15}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -13, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -14}
+        - {x: 13, y: 4}
+        - {x: 13, y: 15}
+      - - {x: 13, y: -13}
+        - {x: 15, y: -15}
+        - {x: 16, y: -15}
+        - {x: 16, y: -8}
+        - {x: 13, y: -9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 15}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -11}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -11}
+        - {x: 15, y: 14}
+        - {x: 13, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 12}
+        - {x: -14, y: 2}
+        - {x: -14, y: -12}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -7}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 10}
+        - {x: 14, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 11}
+        - {x: -15, y: -11}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 11}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -4}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -10}
+        - {x: 16, y: -4}
+        - {x: 16, y: 9}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 10}
+        - {x: 15, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -13, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 9}
+        - {x: 15, y: 15}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 11, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 10}
+        - {x: 15, y: 16}
+    - name: vx_pandaren_character_by_schwarzenacht-d5zcyjk_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -13, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 9}
+        - {x: 15, y: 15}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

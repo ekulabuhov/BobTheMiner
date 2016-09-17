@@ -5,6 +5,10 @@ public enum MessageTypes
 {
 	HiHoneyImHome,
 	StewReady,
+	Gunfight,
+	OutlawDied,
+	SheriffEncountered,
+	UndertakerArrived
 };
 
 public struct Telegram

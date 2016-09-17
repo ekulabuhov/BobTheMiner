@@ -9,9 +9,11 @@ public class AStar
     const int worldHeight = 8;
     public const int worldWidth = 8;
     int[,] world = new int[worldHeight,worldWidth];
+	Point[] forrest = new Point[0];
+	int maxG = int.MaxValue;
 
     // Path function, executes AStar algorithm operations
-	public List<Point> calculatePath(Point[] forrest, Point pathStart, Point pathEnd, int maxG)
+	public List<Point> calculatePath(Point pathStart, Point pathEnd)
     {
         Func<Point, Node, int> distanceFunction = ManhattanDistance;
         const int worldSize = worldHeight * worldWidth;

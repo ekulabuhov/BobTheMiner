@@ -9,7 +9,7 @@
 
 	public void Init (T agent, State<T> startState, State<T> globalState = null) {
 		this.agent = agent;
-		this.state = startState;
+		ChangeState (startState);
 		this.globalState = globalState;
 	}
 
@@ -32,6 +32,24 @@
 		//if not, and if a global state has been implemented, send 
 		//the message to the global state
 		if (globalState != null && globalState.OnMessage(agent, msg))
+		{
+			return true;
+		}
+
+		return false;
+	}
+
+	public bool HandleSenseEvent(Sense sense) {
+		//first see if the current state is valid and that it can handle
+		//the sense
+		if (state != null && state.OnSenseEvent(agent, sense))
+		{
+			return true;
+		}
+
+		//if not, and if a global state has been implemented, send 
+		//the message to the global state
+		if (globalState != null && globalState.OnSenseEvent(agent, sense))
 		{
 			return true;
 		}

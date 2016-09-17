@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 
-public class MessageDispatcher<R>
+public class MessageDispatcher
 {
-	public static void Discharge(Agent<R> receiver, Telegram telegram)
+	public static void Discharge(Agent receiver, Telegram telegram)
 	{
 		if (!receiver.HandleMessage(telegram))
 		{
@@ -13,9 +13,9 @@ public class MessageDispatcher<R>
 		}
 	}
 
-	public static void DispatchMessage(double delay, string senderID, MessageTypes msg) 
+	public static void DispatchMessage(double delay, string receiverID, string senderID, MessageTypes msg) 
 	{
-		var receiver = EntityManager<R>.GetEntity ();
+		var receiver = EntityManager.GetEntity (receiverID);
 
 		var telegram = new Telegram() { Sender = senderID, Receiver = receiver.ID, Msg = msg };
 
@@ -50,7 +50,7 @@ public class MessageDispatcher<R>
 	//  This function dispatches any telegrams with a timestamp that has
 	//  expired. Any dispatched telegrams are removed from the queue
 	//------------------------------------------------------------------------
-	public static void DispatchDelayedMessages()
+	public static void DispatchDelayedMessages(string receiverID)
 	{
 		//get current time
 		double CurrentTime = DateTime.Now.Subtract(DateTime.Today).TotalSeconds;
@@ -65,7 +65,7 @@ public class MessageDispatcher<R>
 		//read the telegram from the front of the queue
 		telegrams.ForEach ((telegram) => {
 			//find the recipient
-			var receiver = EntityManager<R>.GetEntity ();
+			var receiver = EntityManager.GetEntity (receiverID);
 			Debug.Log("Queued telegram ready for dispatch: Sent to " + receiver.ID + ". Msg is " + telegram.Msg);
 			//send the telegram to the recipient
 			Discharge(receiver, telegram);

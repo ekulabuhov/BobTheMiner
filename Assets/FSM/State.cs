@@ -9,4 +9,8 @@
 		//send msg to global message handler
 		return false;
 	}
+
+	public virtual bool OnSenseEvent(T agent, Sense sense) {
+		return false;
+	}
 }

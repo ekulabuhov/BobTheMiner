@@ -21,7 +21,8 @@ internal class GoHomeAndSleepTilRested : State<Bob>
 
 			agent.ChangeLocation(Locations.Shack, () => {
 				//let the wife know I'm home
-				MessageDispatcher<Elsa>.DispatchMessage(0, //time delay
+				MessageDispatcher.DispatchMessage(0, //time delay
+					"Elsa",
 					agent.ID,        //ID of sender
 					MessageTypes.HiHoneyImHome);   //the message
 			});

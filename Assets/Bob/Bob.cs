@@ -7,10 +7,15 @@ using System.Linq;
 
 public enum Locations
 {
+	None,
 	Goldmine,
     Bank,
     Shack,
-    Saloon
+    Saloon,
+	Cemetary,
+	OutlawCamp,
+	UndertakersOffice,
+	Outlaw
 }
 
 public class MyFileLogHandler : ILogHandler
@@ -45,7 +50,7 @@ public class MyFileLogHandler : ILogHandler
     }
 }
 
-public class Bob : Agent<Bob> {
+public class Bob : MovingAgent<Bob> {
 	#region implemented abstract members of Agent
 	public override string ID {
 		get {
@@ -58,62 +63,42 @@ public class Bob : Agent<Bob> {
 	}
     #endregion
 
-    public void UpdateStateMachine()
+    public override bool UpdateStateMachine()
     {
-        // before changing the state we need to walk our waypoints
-        if (this.waypoints.Count > 0)
-        {
-            int xDir = this.waypoints[0].x - (int)rb2D.position.x;
-            int yDir = this.waypoints[0].y - (int)rb2D.position.y;
-            playerScript.MovePlayer(xDir, yDir);
-            this.waypoints.RemoveAt(0);
-			if (this.waypoints.Count == 0 && this.onChangeComplete != null) {
-				this.onChangeComplete ();
-				this.onChangeComplete = null;
-			}
-            return;
-        }
+		if (base.UpdateStateMachine ())
+			return true;
 
         m_iThirst += 1;
 
         this.stateMachine.Update();
-		MessageDispatcher<Bob>.DispatchDelayedMessages();
+		MessageDispatcher.DispatchDelayedMessages(ID);
+
+		return true;
     }
 
     public void Awake()
     {
-        this.stateMachine = new StateMachine<Bob>();
-        this.stateMachine.Init(this, GoHomeAndSleepTilRested.Instance);
+        
     }
 
     //Protected, virtual functions can be overridden by inheriting classes.
-    protected virtual void Start()
+    protected override void Start()
     {
-        //Get a component reference to this object's Rigidbody2D
-        rb2D = GetComponent<Rigidbody2D>();
-        //Get a component reference to the attached BoardManager script
-        boardScript = FindObjectOfType<BoardManager>();
-        //Get a component reference to the attached Player script
-		playerScript = GetComponent<Player>();
+		base.Start ();
 
 		new MyFileLogHandler(bobText, elsaText);
 
+		this.stateMachine = new StateMachine<Bob>();
+		this.stateMachine.Init(this, EnterMineAndDigForNugget.Instance);
+
         InvokeRepeating("UpdateStateMachine", 1, 1);
-		EntityManager<Bob>.RegisterAgent (this);
     }
 
 	public static int WAIT_TIME = 5;
 	public int waitedTime = 0;
 	public int createdTime = 0;
-	public Locations location;
-    private Rigidbody2D rb2D;				// The Rigidbody2D component attached to this object.
-    private BoardManager boardScript;		// Store a reference to our BoardManager which will set up the level.
     public Text bobText;					// UI Text to display Bobs thoughts.
 	public Text elsaText;					// UI Text to display Elsas thoughts.
-    private AStar aStar = new AStar();
-    private List<Point> waypoints = new List<Point>();             // A-Star path
-    private Player playerScript;			// Store a reference to our Player which will move our player.
-	private Action onChangeComplete;
     
     //the amount of gold a miner must have before he feels comfortable
     public const int ComfortLevel = 5;
@@ -200,61 +185,6 @@ public class Bob : Agent<Bob> {
 
     public void ChangeState (State<Bob> state) {
 		this.stateMachine.ChangeState(state);
-	}
-
-	public void ChangeLocation (Locations location, Action onChangeComplete = null)
-	{
-        var pathStart = new Point { x = (int)rb2D.position.x, y = (int)rb2D.position.y };
-        Vector3 newPos = new Vector3();
-
-		this.onChangeComplete = onChangeComplete;
-
-        switch (location)
-        {
-            case Locations.Goldmine:
-                newPos = boardScript.exit.transform.position;
-                break;
-            case Locations.Bank:
-                newPos = boardScript.bank.transform.position;
-                break;
-            case Locations.Shack:
-                newPos = boardScript.wigwam.transform.position;
-                break;
-            case Locations.Saloon:
-                newPos = boardScript.barrels.transform.position;
-                break;
-            default:
-                break;
-        }
-
-        var pathEnd = new Point { x = (int)newPos.x, y = (int)newPos.y };
-		var forrest = boardScript.forrest.Select((go) => { 
-			return new Point() { x = (int)go.transform.position.x, y = (int)go.transform.position.y };
-		}).ToArray(); 
-		this.waypoints = aStar.calculatePath(forrest, pathStart, pathEnd, int.MaxValue);
-
-		foreach (Transform child in boardScript.boardHolder)
-		{
-			var spriteRenderer = child.GetComponent<SpriteRenderer> ();
-			// remove previous color
-			if (spriteRenderer.color == Color.magenta) {
-				spriteRenderer.color = Color.cyan;
-			} else if (spriteRenderer.color == Color.red) {
-				spriteRenderer.color = Color.white;
-			}
-
-			// if child is on the path
-			bool onPath = waypoints.Any((p) => { return p.x == child.position.x && p.y == child.position.y; });
-			if (onPath) {
-				if (spriteRenderer.color == Color.cyan) {
-					spriteRenderer.color = Color.magenta;
-				} else {
-					spriteRenderer.color = Color.red;
-				}
-			}
-		}
-
-        this.location = location;
 	}
 
 	public void AddToGoldCarried (int val)

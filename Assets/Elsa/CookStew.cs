@@ -22,7 +22,8 @@ public class CookStew : State<Elsa> {
 
 			//send a delayed message myself so that I know when to take the stew
 			//out of the oven
-			MessageDispatcher<Elsa>.DispatchMessage(1.5, //time delay
+			MessageDispatcher.DispatchMessage(1.5, //time delay
+				"Elsa",
 				agent.ID,           //sender ID
 				MessageTypes.StewReady);         //msg
 
@@ -53,7 +54,8 @@ public class CookStew : State<Elsa> {
 				Debug.Log(agent.ID + ": StewReady! Lets eat");
 
 				//let hubby know the stew is ready
-				MessageDispatcher<Bob>.DispatchMessage(0, //time delay
+				MessageDispatcher.DispatchMessage(0, //time delay
+					"Bob",
 					agent.ID,           //sender ID
 					MessageTypes.StewReady);         //msg
 

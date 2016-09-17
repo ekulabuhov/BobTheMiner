@@ -3,10 +3,8 @@ using System;
 using System.Collections.Generic; 		//Allows us to use Lists.
 using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
 
-namespace Completed
-	
+namespace Completed	
 {
-	
 	public class BoardManager : MonoBehaviour
 	{
 		// Using Serializable allows us to embed a class with sub properties in the inspector.
@@ -29,16 +27,17 @@ namespace Completed
 		public int columns = 8; 										//Number of columns in our game board.
 		public int rows = 8;											//Number of rows in our game board.
 		public Count wallCount = new Count (5, 9);						//Lower and upper limit for our random number of walls per level.
-		public Count foodCount = new Count (1, 5);						//Lower and upper limit for our random number of food items per level.
-		public GameObject exit;											//Prefab to spawn for exit.
+		public GameObject mine;											//Prefab to spawn for mine.
         public GameObject bank;                                         //Prefab to spawn for bank.
-        public GameObject barrels;                                         //Prefab to spawn for barrels.
-        public GameObject wigwam;                                         //Prefab to spawn for wigwam.
-		public GameObject forrestPrefab;                                         //Prefab to spawn for forrest.
+        public GameObject barrels;                                      //Prefab to spawn for barrels.
+        public GameObject wigwam;                                       //Prefab to spawn for wigwam.
+		public GameObject cemetary;										//Prefab to spawn for cemetary.
+		public GameObject outlawCamp;									//Prefab to spawn for outlaw camp.
+		public GameObject undertakersOffice;							//Prefab to spawn for undertakers office.
+		public GameObject forrestPrefab;                                //Prefab to spawn for forrest.
 		public GameObject[] forrest;									//Array of spawned forrest
         public GameObject[] floorTiles;									//Array of floor prefabs.
 		public GameObject[] wallTiles;									//Array of wall prefabs.
-		public GameObject[] foodTiles;									//Array of food prefabs.
 		public GameObject[] enemyTiles;									//Array of enemy prefabs.
 		public GameObject[] outerWallTiles;								//Array of outer tile prefabs.
 		
@@ -138,7 +137,7 @@ namespace Completed
 
 
         //SetupScene initializes our level and calls the previous functions to lay out the game board
-        public void SetupScene(int level)
+        public void SetupScene()
         {
             //Creates the outer walls and floor.
             BoardSetup();
@@ -146,26 +145,20 @@ namespace Completed
             //Reset our list of gridpositions.
             InitialiseList();
 
-            //Instantiate a random number of wall tiles based on minimum and maximum, at randomized positions.
-            //LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
-
-            //Instantiate a random number of food tiles based on minimum and maximum, at randomized positions.
-            //LayoutObjectAtRandom(foodTiles, foodCount.minimum, foodCount.maximum);
-
-            //Determine number of enemies based on current level number, based on a logarithmic progression
-            int enemyCount = (int)Mathf.Log(level, 2f);
-
-            //Instantiate a random number of enemies based on minimum and maximum, at randomized positions.
-            LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
-
             //Instantiate the exit tile in the upper right hand corner of our game board
-            exit = (GameObject)Instantiate(exit, RandomPosition(), Quaternion.identity);
+            mine = (GameObject)Instantiate(mine, RandomPosition(), Quaternion.identity);
 
             bank = (GameObject)Instantiate(bank, RandomPosition(), Quaternion.identity);
 
             barrels = (GameObject)Instantiate(barrels, RandomPosition(), Quaternion.identity);
 
             wigwam = (GameObject)Instantiate(wigwam, RandomPosition(), Quaternion.identity);
+
+			cemetary = (GameObject)Instantiate(cemetary, RandomPosition(), Quaternion.identity);
+
+			outlawCamp = (GameObject)Instantiate(outlawCamp, RandomPosition(), Quaternion.identity);
+
+			undertakersOffice = (GameObject)Instantiate(undertakersOffice, RandomPosition(), Quaternion.identity);
 
 			forrest = LayoutObjectAtRandom (new GameObject[] { forrestPrefab }, 9, 10).ToArray();
         }
