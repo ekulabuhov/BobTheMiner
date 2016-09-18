@@ -9,8 +9,13 @@ public class AStar
     const int worldHeight = 8;
     public const int worldWidth = 8;
     int[,] world = new int[worldHeight,worldWidth];
-	Point[] forrest = new Point[0];
 	int maxG = int.MaxValue;
+	int[,] costGrid = new int[worldHeight,worldWidth];
+
+	public AStar (int[,] costGrid)
+	{
+		this.costGrid = costGrid;
+	}
 
     // Path function, executes AStar algorithm operations
 	public List<Point> calculatePath(Point pathStart, Point pathEnd)
@@ -84,7 +89,7 @@ public class AStar
                     if (!AStar[myPath.value])
                     {
                         // estimated cost of this particular route so far
-						myPath.g = myNode.g + distanceFunction(myNeighbours[i], myNode) + (forrest.Contains(myNeighbours[i]) ? 15 : 0);
+						myPath.g = myNode.g + distanceFunction(myNeighbours[i], myNode) + costGrid[myNode.x, myNode.y];
                         // estimated cost of entire guessed route to the destination
                         myPath.f = myPath.g + distanceFunction(myNeighbours[i], mypathEnd);
                         // remember this new path for testing above

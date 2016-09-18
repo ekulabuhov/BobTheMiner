@@ -8,7 +8,8 @@ public enum MessageTypes
 	Gunfight,
 	OutlawDied,
 	SheriffEncountered,
-	UndertakerArrived
+	UndertakerArrived,
+	OutlawRespawn
 };
 
 public struct Telegram

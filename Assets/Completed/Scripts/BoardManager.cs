@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic; 		//Allows us to use Lists.
 using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
+using System.Linq;
 
 namespace Completed	
 {
@@ -24,8 +25,8 @@ namespace Completed
 		}
 		
 		
-		public int columns = 8; 										//Number of columns in our game board.
-		public int rows = 8;											//Number of rows in our game board.
+		public const int columns = 8; 										//Number of columns in our game board.
+		public const int rows = 8;											//Number of rows in our game board.
 		public Count wallCount = new Count (5, 9);						//Lower and upper limit for our random number of walls per level.
 		public GameObject mine;											//Prefab to spawn for mine.
         public GameObject bank;                                         //Prefab to spawn for bank.
@@ -43,6 +44,14 @@ namespace Completed
 		
 		public Transform boardHolder;									//A variable to store a reference to the transform of our Board object.
 		private List <Vector3> gridPositions = new List <Vector3> ();	//A list of possible locations to place tiles.
+		public int[,] tileCosts = new int[columns,rows];
+		public int[,] tileAttenuations = new int[columns,rows];
+
+		const int FORREST_MOVEMENT_COST = 5;
+		const int FORREST_ATTENUATION_COST = 3;
+
+		const int BUILDING_MOVEMENT_COST = 6;
+		const int BUILDING_ATTENUATION_COST = 2;
 		
 		
 		//Clears our list gridPositions and prepares it to generate a new board.
@@ -85,7 +94,7 @@ namespace Completed
 					
 					//Instantiate the GameObject instance using the prefab chosen for toInstantiate at the Vector3 corresponding to current grid position in loop, cast it to GameObject.
 					GameObject instance =
-						Instantiate (toInstantiate, new Vector3 (x, y, 0f), Quaternion.identity) as GameObject;
+						Instantiate (toInstantiate, new Vector3 (x, y, toInstantiate.transform.position.z), Quaternion.identity) as GameObject;
 					
 					//Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
 					instance.transform.SetParent (boardHolder);
@@ -127,7 +136,10 @@ namespace Completed
 				
 				//Choose a random tile from tileArray and assign it to tileChoice
 				GameObject tileChoice = tileArray[Random.Range (0, tileArray.Length)];
-				
+
+				// Preserve original Z
+				randomPosition.z = tileChoice.transform.position.z;
+					
 				//Instantiate tileChoice at the position returned by RandomPosition with no change in rotation
 				result.Add((GameObject)Instantiate(tileChoice, randomPosition, Quaternion.identity));
 			}
@@ -161,6 +173,18 @@ namespace Completed
 			undertakersOffice = (GameObject)Instantiate(undertakersOffice, RandomPosition(), Quaternion.identity);
 
 			forrest = LayoutObjectAtRandom (new GameObject[] { forrestPrefab }, 9, 10).ToArray();
+
+			forrest.ToList().ForEach((forrestTile) => {
+				var pos = forrestTile.transform.position;
+				tileCosts[(int)pos.x, (int)pos.y] = FORREST_MOVEMENT_COST;
+				tileAttenuations[(int)pos.x, (int)pos.y] = FORREST_ATTENUATION_COST;
+			});
+
+			new GameObject[] { mine, bank, barrels, wigwam, cemetary, outlawCamp, undertakersOffice }.ToList ().ForEach ((building) => {
+				var pos = building.transform.position;
+				tileCosts[(int)pos.x, (int)pos.y] = BUILDING_MOVEMENT_COST;
+				tileAttenuations[(int)pos.x, (int)pos.y] = BUILDING_ATTENUATION_COST;
+			});
         }
 	}
 }

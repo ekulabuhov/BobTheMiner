@@ -35,7 +35,7 @@ public class DeadOutlaw : State<Outlaw> {
 		switch (telegram.Msg) {
 		case MessageTypes.UndertakerArrived:
 			// hide graveyard
-			agent.Hide ();
+			agent.HideBody ();
 			return true;
 		default:
 			return false;

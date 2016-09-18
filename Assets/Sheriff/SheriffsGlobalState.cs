@@ -31,7 +31,7 @@ public class SheriffsGlobalState : State<Sheriff> {
 
 	public override bool OnSenseEvent (Sheriff agent, Sense sense)
 	{
-		if (sense.Sender == "Outlaw") {
+		if (sense.Sender == "Outlaw" && !(EntityManager.GetEntity(sense.Sender) as Outlaw).isDead) {
 			MessageDispatcher.DispatchMessage (0, "Outlaw", agent.ID, MessageTypes.SheriffEncountered);
 			return true;
 		}

@@ -29,9 +29,9 @@ public struct Sense
 
 public static class SenseEvent
 {
-	private static AStar aStar = new AStar ();
+	public static AStar aStar;
 
-	static float SENSE_RANGE = 4.0f;
+	static float SENSE_RANGE = 3.0f;
 
 	public static void UpdateSensors ()
 	{

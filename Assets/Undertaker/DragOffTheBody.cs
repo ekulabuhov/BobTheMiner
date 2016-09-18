@@ -22,11 +22,12 @@ public class DragOffTheBody : State<Undertaker> {
 
 	public override void Execute(Undertaker agent)
 	{
-		Debug.Log(agent.ID + ": In the office");
+		MessageDispatcher.DispatchMessage (0, "Outlaw", agent.ID, MessageTypes.OutlawRespawn);
+		agent.stateMachine.ChangeState (HangoutInTheOffice.Instance);
 	}
 
 	public override void Exit(Undertaker agent)
 	{
-		Debug.Log(agent.ID + ": Leaving the office");
+		
 	}
 }

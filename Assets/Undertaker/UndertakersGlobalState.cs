@@ -34,7 +34,10 @@ public class UndertakersGlobalState : State<Undertaker> {
 		switch (telegram.Msg) {
 		case MessageTypes.OutlawDied:
 			Debug.Log (agent.ID + ": Let's bring that scum to the cemetary!");
-			agent.ChangeLocation (Locations.Outlaw, () => agent.stateMachine.ChangeState (DragOffTheBody.Instance));
+			agent.ChangeLocation (Locations.Outlaw, () => {
+				MessageDispatcher.DispatchMessage(0, "Outlaw", agent.ID, MessageTypes.UndertakerArrived);
+				agent.stateMachine.ChangeState (DragOffTheBody.Instance);
+			});
 			return true;
 		default:
 			return false;

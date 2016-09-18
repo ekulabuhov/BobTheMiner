@@ -43,6 +43,11 @@ public class OutlawsGlobalState : State<Outlaw> {
 			Debug.Log (agent.ID + ": Shot by the sheriff :(");
 			agent.stateMachine.ChangeState (DeadOutlaw.Instance);
 			return true;
+		case MessageTypes.OutlawRespawn:
+			Debug.Log (agent.ID + ": This town needs another scoundrel!");
+			agent.Respawn ();
+			agent.stateMachine.ChangeState (LurkAround.Instance);
+			return true;
 		default:
 			return false;
 		}

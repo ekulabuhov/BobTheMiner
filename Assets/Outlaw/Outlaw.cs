@@ -26,8 +26,16 @@ public class Outlaw : MovingAgent<Outlaw> {
 		}
 	}
 
-	public void Hide() {
-		this.rb2D.gameObject.GetComponent<Renderer> ().enabled = false;
+	public void HideBody() {
+		this.GetComponent<Renderer> ().enabled = false;
+	}
+
+	public void Respawn() {
+		this.transform.position = new Vector3 (7, 7);
+		isDead = false;
+		this.GetComponent<Renderer> ().enabled = true;
+		this.clearHighlightedWay ();
+		this.waypoints.Clear ();
 	}
 
 	public override bool UpdateStateMachine()
